@@ -1,4 +1,5 @@
 ##Gravity Forms Quick View
+
 This plugin adds a "quick view" button in the entries list for each form.
 The entries data is loaded with ajax in a simple overlay.
 
