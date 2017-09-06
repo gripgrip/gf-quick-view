@@ -1,0 +1,50 @@
+.gfqv-entry-container {
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	background: rgba(255, 255, 255, 0.5);
+	z-index: 9999;
+	align-items: center;
+	justify-content: center;
+	display: none;
+}
+
+.gfqv-entry-container.open {
+	display: flex;
+}
+
+.gfqv-entry-content {
+	padding: 20px;
+	background: #fff;
+	border-radius: 3px;
+	width: 50%;
+	position: relative;
+}
+
+.gfqv-close {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	color: #0a55a0;
+	text-decoration: none;
+}
+
+.gfqv-entry-data {
+	display: block;
+	margin: 5px 0;
+	padding: 5px 0;
+	border-bottom: 1px solid #dedede;
+	font-size: 16px;
+}
+
+.gfqv-entry-data .label {
+	font-weight: 700;
+	display: inline-block;
+	width: 30%;
+}
+
+.gfqv-entry-data .entry-data {
+	display: inline-block;
+}
